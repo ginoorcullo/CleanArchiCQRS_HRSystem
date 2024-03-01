@@ -17,13 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Udemy_Infrastructure", "Ude
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR_LeaveManagement.Domain", "src\Core\HR_LeaveManagement.Domain\HR_LeaveManagement.Domain.csproj", "{CA804CF1-CB86-4B95-8EBF-746D5014DBF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR_LeaveManagement.Application", "src\Core\HR_LeaveManagement.Application\HR_LeaveManagement.Application.csproj", "{EC10B570-840E-48B3-A3DE-8EF2B7427066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR_LeaveManagement.Application", "src\Core\HR_LeaveManagement.Application\HR_LeaveManagement.Application.csproj", "{EC10B570-840E-48B3-A3DE-8EF2B7427066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR_LeaveManagement_Web.API", "src\UI\HR_LeaveManagement_Web.API\HR_LeaveManagement_Web.API.csproj", "{9B292431-49FC-490A-A977-C2EC514CF5AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR_LeaveManagement_Web.API", "src\UI\HR_LeaveManagement_Web.API\HR_LeaveManagement_Web.API.csproj", "{9B292431-49FC-490A-A977-C2EC514CF5AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR_LeaveManagement.Persistence", "src\Infrastructure\HR_LeaveManagement.Persistence\HR_LeaveManagement.Persistence.csproj", "{2C08CE1B-CA0A-412D-889D-FAD9D6506F8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR_LeaveManagement.Persistence", "src\Infrastructure\HR_LeaveManagement.Persistence\HR_LeaveManagement.Persistence.csproj", "{2C08CE1B-CA0A-412D-889D-FAD9D6506F8E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR_LeaveManagement.Infrastructure", "src\Infrastructure\HR_LeaveManagement.Infrastructure\HR_LeaveManagement.Infrastructure.csproj", "{61D5F881-598A-4762-A54E-FB33CFF49016}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AP_UI", "AP_UI", "{629F5071-2A2F-47D0-8D30-9214C7DEE42D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,6 +68,7 @@ Global
 		{9B292431-49FC-490A-A977-C2EC514CF5AB} = {514F5DE4-CCC3-43A9-B767-2D1205152132}
 		{2C08CE1B-CA0A-412D-889D-FAD9D6506F8E} = {5250DF67-23AD-4E97-8311-A1D2586DDFCB}
 		{61D5F881-598A-4762-A54E-FB33CFF49016} = {5250DF67-23AD-4E97-8311-A1D2586DDFCB}
+		{629F5071-2A2F-47D0-8D30-9214C7DEE42D} = {B43E48CC-952C-46E1-A58F-A71CCB2AF09C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC4186AC-75F9-4D31-B0F4-AA26A2F36D8D}
